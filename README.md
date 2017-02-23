@@ -39,7 +39,7 @@ have any questions please contact Don (dhagler@ucsd.edu) and Chi-Hua
 
 *	Download the all the files in the GCLUST directory:
 ```
-svn checkout https://github.com/ENIGMA-git/ENIGMA/trunk/GCLUST
+svn checkout https://github.com/ENIGMA-git/GCLUST/trunk/GCLUST
 ```
 *	Move the directory `GCLUST` to the parent folder of your FreeSurfer output. 
 	For example:
