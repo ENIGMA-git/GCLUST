@@ -1,0 +1,9 @@
+## Version 1.1 - July 14, 2015
+
+Updated scripts to point to custom version of mach2qtl and merlin-offline directly
+on the ENIGMA servers. 
+
+
+## Version 1.0 - September 12, 2014
+
+Original public release

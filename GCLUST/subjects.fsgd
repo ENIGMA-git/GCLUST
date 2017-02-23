@@ -1,0 +1,8 @@
+GroupDescriptorFile 1
+Title all 
+MeasureMentName thickness 
+RegistrationSubject fsaverage
+DeMeanFlag 0
+Class BD
+SomeTag 
+Variables  age sex 
