@@ -207,7 +207,7 @@ if ~exist(fname_out,'file') || parms.forceflag
         tmp_name = sprintf('%s-%s',parms.roinames{r},hemi);
       end;
       if ~isempty(parms.measname)
-        tmp_name = [tmp_name '-' parms.measname];
+        tmp_name = [hemi '.' tmp_name '-' parms.measname];
       end;
       roinames{r,h} = tmp_name;
       % calculate weighted averages for this ROI
@@ -221,6 +221,6 @@ if ~exist(fname_out,'file') || parms.forceflag
   data = reshape(roivals,[parms.nhemi*nroi,parms.nframes])';
   % write results as csv file
   mmil_write_csv(fname_out,data,'row_labels',row_labels,...
-    'col_labels',col_labels','firstcol_label','SubjID');
+    'col_labels',col_labels,'firstcol_label','SubjID');
 end;
 
